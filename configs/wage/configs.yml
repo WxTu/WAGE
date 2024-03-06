@@ -1,0 +1,10 @@
+amac:
+  hidden1: 400
+  hidden2: 64
+  neighbor_num: 5
+  fusion_weight: 0.5
+  epoch: 8000
+  lambda_xr: 10
+  lambda_ar: 1
+  lambda_sub_ar: 10
+  use_best: True
