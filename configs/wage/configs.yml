@@ -1,0 +1,77 @@
+cora:
+  hidden1: 200
+  hidden2: 64
+  neighbor_num: 5
+  multi_hop: 3
+  fusion_weight: 0.5
+  epoch: 500
+  lambda_xr: 10
+  lambda_ar: 1
+  lambda_sub_ar: 1
+  use_best: True
+  dataset_type: "one-hot"
+
+citeseer:
+  hidden1: 512
+  hidden2: 64
+  neighbor_num: 5
+  multi_hop: 3
+  fusion_weight: 0.5
+  epoch: 700
+  lambda_xr: 10
+  lambda_ar: 1
+  lambda_sub_ar: 1
+  use_best: True
+  dataset_type: "one-hot"
+
+amap:
+  hidden1: 400
+  hidden2: 64
+  neighbor_num: 5
+  multi_hop: 3
+  fusion_weight: 0.5
+  epoch: 8000
+  lambda_xr: 10
+  lambda_ar: 1
+  lambda_sub_ar: 10
+  use_best: True
+  dataset_type: "one-hot"
+
+amac:
+  hidden1: 400
+  hidden2: 64
+  neighbor_num: 5
+  multi_hop: 3
+  fusion_weight: 0.5
+  epoch: 8000
+  lambda_xr: 10
+  lambda_ar: 1
+  lambda_sub_ar: 10
+  use_best: True
+  dataset_type: "one-hot"
+
+pubmed:
+  hidden1: 200
+  hidden2: 64
+  neighbor_num: 5
+  multi_hop: 3
+  fusion_weight: 0.5
+  epoch: 1000
+  lambda_xr: 10
+  lambda_ar: 1
+  lambda_sub_ar: 10
+  use_best: True
+  dataset_type: "continuous"
+
+cs:
+  hidden1: 200
+  hidden2: 64
+  neighbor_num: 5
+  multi_hop: 3
+  fusion_weight: 0.5
+  epoch: 500
+  lambda_xr: 10
+  lambda_ar: 1
+  lambda_sub_ar: 10
+  use_best: True
+  dataset_type: "continuous"
