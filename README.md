@@ -23,7 +23,7 @@ git clone https://github.com/WxTu/WAGE.git
 
 ## Preparation
 
-We adopt six datasets in total, including Cora, Citeseer, Pubmed, Amazon Computer, Amazon Photo, and Coauthor-CS. To train WAGE, the dataset should first be selected by configuring the "--dataset" parameter. Subsequently, the code can be executed using `main.py`, with the selected datasets being automatically downloaded from the DGL library.
+We adopt six datasets in total, including Cora, Citeseer, Pubmed, Amazon Computer, Amazon Photo, and Coauthor-CS. To train WAGE, the dataset should first be selected by configuring the "--dataset" parameter. Subsequently, the code can be executed using `main.py`, with the selected datasets being automatically downloaded from the PYG library.
 
 ## Code Structure & Usage
 
